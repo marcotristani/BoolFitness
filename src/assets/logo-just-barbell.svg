@@ -1,0 +1,31 @@
+<svg width="130" height="130" viewBox="0 0 130 130" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Dark gradient -->
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2B2B2B"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+
+    <!-- Orange gradient -->
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A00"/>
+      <stop offset="100%" stop-color="#FF5A00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon background -->
+  <circle cx="65" cy="65" r="45" fill="url(#darkGrad)"/>
+
+  <!-- Barbell -->
+  <rect x="42" y="63" width="46" height="4" rx="2" fill="url(#orangeGrad)"/>
+
+  <!-- Left plates -->
+  <rect x="36" y="55" width="5" height="20" rx="1" fill="url(#orangeGrad)"/>
+  <rect x="31" y="58" width="5" height="14" rx="1" fill="url(#orangeGrad)"/>
+
+  <!-- Right plates -->
+  <rect x="89" y="55" width="5" height="20" rx="1" fill="url(#orangeGrad)"/>
+  <rect x="94" y="58" width="5" height="14" rx="1" fill="url(#orangeGrad)"/>
+
+</svg>
